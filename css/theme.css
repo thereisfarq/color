@@ -23,20 +23,23 @@
 }
 
 :root {
-  --bg: #ffffff;
-  --fg: #000000;
-  --border: #cccccc;
-  --border-subtle: #e5e5e5;
-  --accent: #c41e24;
-  --muted: #888888;
+  --bg: #412833;
+  --fg: #ffffff;
+  --border: #e5c7ca;
+  --border-subtle: #e5c7ca66;
+  --accent: #e5c7ca;
+  --muted: #e5c7ca;
+  --hover: #e5c7ca;
+  --hover-ink: #412833;
+  --surface-raised: #523743;
 
   --ui-font: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --mono-font: "SF Mono", "Menlo", "Consolas", monospace;
+  --mono-font: "Inter Tight", sans-serif;
 
   --transition-fast: 180ms ease-out;
   --transition-route: 200ms ease-out;
 
-  --radius-sm: 4px;
+  --radius-sm: 8px;
   --radius-md: 10px;
 
   --space-1: 0.25rem;
