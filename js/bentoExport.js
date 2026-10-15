@@ -160,7 +160,7 @@ const BentoExport = (() => {
   }
 
   /**
-   * Bottom brand strip: a rule across the full width, "AN AHFOS INITIATIVE"
+   * Bottom brand strip: a rule across the full width, "AN THEREISFARQ INITIATIVE"
    * bottom-left in the same treatment as the landing page's credit line,
    * and the COLOR logo bottom-right.
    */
@@ -173,7 +173,7 @@ const BentoExport = (() => {
     ctx.lineTo(W - PAD, footerY);
     ctx.stroke();
 
-    capsText(ctx, "An AHFOS Initiative", PAD, footerY + 36, {
+    capsText(ctx, "An THEREISFARQ Initiative", PAD, footerY + 36, {
       size: 13,
       weight: 500,
       color: MUTED,
