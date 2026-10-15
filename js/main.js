@@ -248,7 +248,7 @@
     dom.shareStoryLoading.hidden = false;
     dom.shareStoryLoading.textContent = "Rendering…";
 
-    Share.drawStoryCard(dom.shareStoryCanvas, "assets/logo.svg")
+    Share.drawStoryCard(dom.shareStoryCanvas, "assets/color-wordmark.svg")
       .then(() => {
         shareReady = true;
         dom.shareStoryShareBtn.disabled = false;
