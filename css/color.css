@@ -1416,3 +1416,20 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
   .landing__logo img { width: min(100%, 16rem); }
   .app-header__logo { width: 5rem; }
 }
+
+
+/* Bring overlays, share previews, and guide panels into the same theme. */
+.share-story__preview, .share-story__loading { background: var(--bg); color: var(--fg); }
+.share-story__share-btn { background: var(--accent); color: var(--hover-ink); border-radius: 8px; }
+.share-story__share-btn:not(:disabled):hover { background: #f1dadd; opacity: 1; }
+.share-story__status { color: var(--fg); }
+.share-story__close { color: var(--muted); }
+.share-story__close:hover { color: var(--accent); }
+.share-story__panel { color: var(--fg); }
+.results-overlay, .wallpaper-overlay, .manual-overlay, .help-overlay { background: #1c1016bb; }
+.results-card, .wallpaper-card, .manual-card, .help-card { background: var(--bg); color: var(--fg); border: 1px solid var(--border-subtle); border-radius: 12px; }
+.manual-card__eyebrow { color: var(--muted); }
+.manual-breakdown { background: var(--surface-raised); }
+.manual-breakdown__chunk--r { color: var(--accent); background: #e5c7ca1f; }
+.manual-breakdown__row--r { border-left-color: var(--accent); }
+.pairings-contrast__chip { border-color: var(--border); }
