@@ -29,7 +29,7 @@ const BentoExport = (() => {
   const CONTENT_W = W - PAD * 2;
   const MAX_COLS = Math.max(1, Math.floor((CONTENT_W + GAP) / (CARD_W + GAP)));
 
-  const FONT = '"Helvetica Neue", Arial, sans-serif';
+  const FONT = '"Inter Tight", Arial, sans-serif';
   const FG = "#000000";
   const MUTED = "#888888";
   const BORDER = "#e5e5e5";
