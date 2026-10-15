@@ -1,8 +1,8 @@
 # COLOR
 
-A color-code spotting game and palette tool — companion to [TypedUp](https://github.com/ahfos/typedup). Get faster and more accurate at reading RGB/Hex values, and vice versa, or use Color Pairings to work out a color scheme.
+A color-code spotting game and palette tool — companion to [TypedUp](https://github.com/thereisfarq/typedup). Get faster and more accurate at reading RGB/Hex values, and vice versa, or use Color Pairings to work out a color scheme.
 
-Play at **[ahfos.github.io/color](https://ahfos.github.io/color)**.
+Play at **[thereisfarq.github.io/color](https://thereisfarq.github.io/color)**.
 
 ## Play
 
@@ -51,7 +51,7 @@ npx serve .
 
 ## Deploy
 
-Push to `main`; a GitHub Actions workflow (`.github/workflows/deploy.yml`) publishes the static site to GitHub Pages at `https://ahfos.github.io/color/`.
+Push to `main`; a GitHub Actions workflow (`.github/workflows/deploy.yml`) publishes the static site to GitHub Pages at `https://thereisfarq.github.io/color/`.
 
 ## Notes on the color map
 
