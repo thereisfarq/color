@@ -391,6 +391,7 @@
   width: 100%;
   max-width: 15rem;
   height: auto;
+  filter: invert(1);
 }
 
 .landing__levels {
