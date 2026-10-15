@@ -86,7 +86,7 @@ const Share = (() => {
     drawLetterSpacedSegments(
       ctx,
       [
-        { text: "ahfos.github.io/", color: "#000000" },
+        { text: "thereisfarq.github.io/", color: "#000000" },
         { text: "color", color: "#c41e24" },
       ],
       CARD_W / 2,
@@ -94,9 +94,9 @@ const Share = (() => {
       2
     );
 
-    // MADE BY AHFOS footer, small + grey like the home screen.
+    // MADE BY THEREISFARQ footer, small + grey like the home screen.
     ctx.font = `500 32px "Helvetica Neue", Arial, sans-serif`;
-    drawLetterSpacedSegments(ctx, [{ text: "MADE BY AHFOS", color: "#888888" }], CARD_W / 2, CARD_H - 120, 9);
+    drawLetterSpacedSegments(ctx, [{ text: "MADE BY THEREISFARQ", color: "#888888" }], CARD_W / 2, CARD_H - 120, 9);
   }
 
   function canvasToBlob(canvas) {
@@ -162,7 +162,7 @@ const Share = (() => {
     }
   }
 
-  /** The public URL of the game, e.g. https://ahfos.github.io/color/ */
+  /** The public URL of the game, e.g. https://thereisfarq.github.io/color/ */
   function gameShareUrl() {
     const dir = window.location.pathname.replace(/[^/]*$/, "");
     return `${window.location.origin}${dir}`;
