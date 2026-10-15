@@ -442,7 +442,7 @@
   font-size: 0.65rem;
   font-weight: 500;
   letter-spacing: 0.28em;
-  color: #888888;
+  color: var(--muted);
   transition: color var(--transition-fast);
 }
 
@@ -467,7 +467,7 @@
   font-weight: 500;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #888888;
+  color: var(--muted);
 }
 
 /* A single rule trailing the label — not a line on both sides. */
@@ -515,7 +515,7 @@
   aspect-ratio: 9 / 16;
   border-radius: 0.9rem;
   overflow: hidden;
-  background: #ffffff;
+  background: var(--surface-raised);
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
 }
 
@@ -531,8 +531,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
-  color: #888888;
+  background: var(--surface-raised);
+  color: var(--muted);
   font-size: 0.8rem;
   letter-spacing: 0.04em;
 }
@@ -571,7 +571,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #888888;
+  color: var(--muted);
   transition: color var(--transition-fast);
 }
 
@@ -740,7 +740,7 @@
   font-weight: 500;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: #888888;
+  color: var(--muted);
   margin-bottom: 0.5rem;
 }
 
@@ -807,7 +807,7 @@
 }
 
 .manual-breakdown__chunk--r {
-  color: #c41e24;
+  color: var(--accent);
   background: rgba(196, 30, 36, 0.1);
 }
 
@@ -839,7 +839,7 @@
 }
 
 .manual-breakdown__row--r {
-  border-left-color: #c41e24;
+  border-left-color: var(--accent);
 }
 
 .manual-breakdown__row--g {
