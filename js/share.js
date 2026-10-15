@@ -47,7 +47,7 @@ const Share = (() => {
     if (!ctx) throw new Error("Canvas 2D context is unavailable");
 
     // Background — matches the site's white/black/red brand.
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#412833";
     ctx.fillRect(0, 0, CARD_W, CARD_H);
 
     const logoImg = await loadImage(logoSrc);
@@ -86,8 +86,8 @@ const Share = (() => {
     drawLetterSpacedSegments(
       ctx,
       [
-        { text: "thereisfarq.github.io/", color: "#000000" },
-        { text: "color", color: "#c41e24" },
+        { text: "thereisfarq.github.io/", color: "#e5c7ca" },
+        { text: "color", color: "#ffffff" },
       ],
       CARD_W / 2,
       stripY + 130,
@@ -96,7 +96,7 @@ const Share = (() => {
 
     // MADE BY THEREISFARQ footer, small + grey like the home screen.
     ctx.font = `500 32px "Inter Tight", Arial, sans-serif`;
-    drawLetterSpacedSegments(ctx, [{ text: "MADE BY THEREISFARQ", color: "#888888" }], CARD_W / 2, CARD_H - 120, 9);
+    drawLetterSpacedSegments(ctx, [{ text: "MADE BY THEREISFARQ", color: "#e5c7ca99" }], CARD_W / 2, CARD_H - 120, 9);
   }
 
   function canvasToBlob(canvas) {
@@ -136,7 +136,7 @@ const Share = (() => {
 
     if (canShareFiles) {
       try {
-        await navigator.share({ files: [file], title: "COLOR", text: `Play COLOR: ${gameUrl}` });
+        await navigator.share({ files: [file], title: "color", text: `Play color: ${gameUrl}` });
         return { method: "share", message: "Shared — pick Instagram, then Story." };
       } catch (err) {
         if (err && err.name === "AbortError") {
