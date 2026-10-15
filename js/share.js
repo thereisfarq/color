@@ -81,7 +81,7 @@ const Share = (() => {
     ctx.fill();
 
     // Link line, styled like the footer credit but in brand colors.
-    ctx.font = `600 42px "Helvetica Neue", Arial, sans-serif`;
+    ctx.font = `600 42px "Inter Tight", Arial, sans-serif`;
     ctx.textBaseline = "alphabetic";
     drawLetterSpacedSegments(
       ctx,
@@ -95,7 +95,7 @@ const Share = (() => {
     );
 
     // MADE BY THEREISFARQ footer, small + grey like the home screen.
-    ctx.font = `500 32px "Helvetica Neue", Arial, sans-serif`;
+    ctx.font = `500 32px "Inter Tight", Arial, sans-serif`;
     drawLetterSpacedSegments(ctx, [{ text: "MADE BY THEREISFARQ", color: "#888888" }], CARD_W / 2, CARD_H - 120, 9);
   }
 
