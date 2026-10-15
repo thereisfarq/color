@@ -48,12 +48,12 @@
 
     const FONT = '"Inter Tight", Arial, sans-serif';
     const MONO = '"SF Mono", "Menlo", "Consolas", monospace';
-    const FG = "#000000";
-    const MUTED = "#888888";
+    const FG = "#ffffff";
+    const MUTED = "#e5c7ca";
     const BORDER = "#e5e5e5";
     const PANEL = "#f2f2f2";
-    const ACCENT = "#c41e24";
-    const R = { fg: "#c41e24", bg: "rgba(196, 30, 36, 0.1)" };
+    const ACCENT = "#e5c7ca";
+    const R = { fg: "#e5c7ca", bg: "rgba(229, 199, 202, 0.12)" };
     const G = { fg: "#1f8a4c", bg: "rgba(31, 138, 76, 0.1)" };
     const B = { fg: "#2064c4", bg: "rgba(32, 100, 196, 0.1)" };
 
@@ -278,7 +278,7 @@
       const ctx = canvas.getContext("2d");
       ctx.scale(scale, scale);
 
-      ctx.fillStyle = "#ffffff";
+      ctx.fillStyle = "#412833";
       ctx.fillRect(0, 0, W, H);
 
       let cy = PAD;
