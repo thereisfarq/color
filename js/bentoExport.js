@@ -32,7 +32,7 @@ const BentoExport = (() => {
   const FONT = '"Inter Tight", Arial, sans-serif';
   const FG = "#ffffff";
   const MUTED = "#e5c7ca";
-  const BORDER = "#e5e5e5";
+  const BORDER = "#e5c7ca66";
   const ACCENT = "#e5c7ca";
 
   function loadImage(src) {
@@ -52,7 +52,7 @@ const BentoExport = (() => {
   // usually resolves on an already-settled promise instead.
   let logoPromise = null;
   function getLogo() {
-    if (!logoPromise) logoPromise = loadImage("assets/logo.svg").catch(() => null);
+    if (!logoPromise) logoPromise = loadImage("assets/color-wordmark.svg").catch(() => null);
     return logoPromise;
   }
   getLogo();
@@ -243,7 +243,7 @@ const BentoExport = (() => {
     const ctx = canvas.getContext("2d");
     ctx.scale(scale, scale);
 
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#412833";
     ctx.fillRect(0, 0, W, H);
 
     drawHeader(ctx, base, meta.harmonyLabel || "");
@@ -273,7 +273,7 @@ const BentoExport = (() => {
     const ctx = canvas.getContext("2d");
     ctx.scale(scale, scale);
 
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#412833";
     ctx.fillRect(0, 0, W, H);
 
     drawHeader(ctx, base, "All Pairings");
