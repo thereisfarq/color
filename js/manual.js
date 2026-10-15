@@ -46,7 +46,7 @@
     const PAD = 64;
     const CONTENT_W = W - PAD * 2;
 
-    const FONT = '"Helvetica Neue", Arial, sans-serif';
+    const FONT = '"Inter Tight", Arial, sans-serif';
     const MONO = '"SF Mono", "Menlo", "Consolas", monospace';
     const FG = "#000000";
     const MUTED = "#888888";
