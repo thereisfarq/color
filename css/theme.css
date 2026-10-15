@@ -30,7 +30,7 @@
   --accent: #c41e24;
   --muted: #888888;
 
-  --ui-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --ui-font: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mono-font: "SF Mono", "Menlo", "Consolas", monospace;
 
   --transition-fast: 180ms ease-out;
