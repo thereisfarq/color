@@ -2,7 +2,7 @@
  * manual.js
  * The "?" on the landing page — a short, crisp explainer that RGB/Hex are
  * arithmetic, not a guessing game, plus a "Download as PNG" export of the
- * same content with the app's branded bottom bar (rule + "AN AHFOS
+ * same content with the app's branded bottom bar (rule + "AN THEREISFARQ
  * INITIATIVE" + logo), matching the Pairings exports.
  *
  * Self-contained, like wallpaper.js/share.js/bentoExport.js: its own tiny
@@ -207,7 +207,7 @@
       ctx.lineTo(W - PAD, footerY);
       ctx.stroke();
 
-      capsText(ctx, "An AHFOS Initiative", PAD, footerY + 36, { size: 13, weight: 500, color: MUTED, spacing: 0.24 });
+      capsText(ctx, "An THEREISFARQ Initiative", PAD, footerY + 36, { size: 13, weight: 500, color: MUTED, spacing: 0.24 });
 
       if (logoImg) {
         const logoH = 26;
