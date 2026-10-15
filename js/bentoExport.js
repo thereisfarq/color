@@ -30,10 +30,10 @@ const BentoExport = (() => {
   const MAX_COLS = Math.max(1, Math.floor((CONTENT_W + GAP) / (CARD_W + GAP)));
 
   const FONT = '"Inter Tight", Arial, sans-serif';
-  const FG = "#000000";
-  const MUTED = "#888888";
+  const FG = "#ffffff";
+  const MUTED = "#e5c7ca";
   const BORDER = "#e5e5e5";
-  const ACCENT = "#c41e24";
+  const ACCENT = "#e5c7ca";
 
   function loadImage(src) {
     return new Promise((resolve, reject) => {
@@ -91,13 +91,13 @@ const BentoExport = (() => {
     const black = { r: 0, g: 0, b: 0 };
     const cw = ColorEngine.contrastRatio(rgb, white);
     const cb = ColorEngine.contrastRatio(rgb, black);
-    return cw >= cb ? "#ffffff" : "#000000";
+    return cw >= cb ? "#412833" : "#ffffff";
   }
 
   /** One fixed-size card: square-ish swatch on top, code details below. */
   function drawCard(ctx, entry, x, y) {
     roundRect(ctx, x, y, CARD_W, CARD_H, 18);
-    ctx.fillStyle = "#ffffff";
+    ctx.fillStyle = "#412833";
     ctx.fill();
     ctx.save();
     roundRect(ctx, x, y, CARD_W, CARD_H, 18);
