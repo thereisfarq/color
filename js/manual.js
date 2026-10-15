@@ -50,7 +50,7 @@
     const MONO = '"SF Mono", "Menlo", "Consolas", monospace';
     const FG = "#ffffff";
     const MUTED = "#e5c7ca";
-    const BORDER = "#e5e5e5";
+    const BORDER = "#e5c7ca66";
     const PANEL = "#f2f2f2";
     const ACCENT = "#e5c7ca";
     const R = { fg: "#e5c7ca", bg: "rgba(229, 199, 202, 0.12)" };
@@ -78,7 +78,7 @@
     // shouldn't await a fresh fetch right before triggering the download.
     let logoPromise = null;
     function getLogo() {
-      if (!logoPromise) logoPromise = loadImage("assets/logo.svg").catch(() => null);
+      if (!logoPromise) logoPromise = loadImage("assets/color-wordmark.svg").catch(() => null);
       return logoPromise;
     }
     getLogo();
