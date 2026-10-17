@@ -1,8 +1,8 @@
 /**
  * theme.css
  * Design tokens shared with TypedUp (github.com/thereisfarq/typedup), so COLOR
- * reads as part of the same family: minimal black/white with a single red
- * accent, Helvetica Neue, fast/subtle transitions.
+ * reads as part of the same family: deep plum and blush palette, Inter Tight typography, and consistent
+ * compact controls, borders, and transitions.
  */
 
 *,
@@ -23,12 +23,12 @@
 }
 
 :root {
-  --bg: #412833;
+  --bg: #30202a;
   --fg: #ffffff;
   --border: #e5c7ca;
   --border-subtle: #e5c7ca66;
   --accent: #e5c7ca;
-  --muted: #e5c7ca;
+  --muted: #d7bfc5;
   --hover: #e5c7ca;
   --hover-ink: #412833;
   --surface-raised: #523743;
