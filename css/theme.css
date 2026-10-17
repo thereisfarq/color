@@ -90,6 +90,11 @@ a {
   flex-direction: column;
 }
 
+
+.farq-outpost{display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:0 0 auto;padding:7px 10px;border:1px solid var(--border-subtle);border-radius:6px;color:var(--fg);background:transparent;font:600 10px/1.2 "Inter Tight",sans-serif;white-space:nowrap;text-decoration:none;transition:background 180ms ease-out,color 180ms ease-out,border-color 180ms ease-out}
+.farq-outpost:hover{background:var(--accent);color:var(--hover-ink);border-color:var(--accent)}
+.farq-outpost:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
 /* Shared button styles */
 .btn {
   display: inline-flex;
